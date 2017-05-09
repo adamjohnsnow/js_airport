@@ -4,5 +4,5 @@ function Weather() {
 
 
 Weather.prototype.condition = function() {
- return  this.forecast[Math.floor(Math.random() * 5)];
+ return this.forecast[Math.floor(Math.random() * 5)];
 };
